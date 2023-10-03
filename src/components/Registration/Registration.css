@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px lightgrey;
+}
+
+button {
+    width: 30%;
+    align-self: center;
+    height: 50px;
+    margin: 20px 0 0 0;
+    background-color: rgb(84, 126, 153);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(56, 85, 103);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(216, 215, 215);
+}
+
+.registration {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+    height: 40px;
+    color: white;
+    background-color: rgb(84, 126, 153);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+h1 {
+    color: rgb(84, 126, 153);
+    text-shadow: 1px 1px black;
+}
